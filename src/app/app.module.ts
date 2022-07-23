@@ -8,6 +8,7 @@ import { AuthModule } from './auth/auth.module';
 
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { ComponentsModule } from './components/components.module';
 
 
 
@@ -22,7 +23,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    ComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
