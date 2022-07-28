@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { customInitFunctions } from './customInitFunctions';
+declare function customInitFunctions():void;
 
 @Component({
   selector: 'app-pages',

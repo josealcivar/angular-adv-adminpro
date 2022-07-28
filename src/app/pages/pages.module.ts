@@ -13,6 +13,8 @@ import { AppRoutingModule } from '../app-routing.module';
 import { ComponentsModule } from '../components/components.module';
 import { GraficaComponent } from './grafica/grafica.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     PagesComponent,
     GraficaComponent,
     AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
     
   ], exports:[
     DashboardComponent,
