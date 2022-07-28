@@ -12,6 +12,7 @@ import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module'; 
 import { ComponentsModule } from '../components/components.module';
 import { GraficaComponent } from './grafica/grafica.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { GraficaComponent } from './grafica/grafica.component';
     ProgressComponent,
     PagesComponent,
     GraficaComponent,
+    AccountSettingsComponent,
     
   ], exports:[
     DashboardComponent,
